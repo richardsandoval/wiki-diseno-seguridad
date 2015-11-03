@@ -7,22 +7,6 @@ El proyecto en la capa de acceso consta de:
     -El tercer octeto es el servicio utilizado
 
 
-
-VLAN ID | Name |  Description
------------- | ---------- | ------------------
-  10 | ACCESS POINTS |
-  20 | Foreign Clients| 
-  30 | ADMINISTRATIVO |
-  40 | IP Phones |
-  50 | CAMARAS DE SEGURIDAD |
-  70 | CLIENTES LABORATORIO |
-  80 | SERVIDORES |
-  90 | Virtualizacion |
-  100 |WebServer 	|
-  110|Equipo electrónicos |  	
-  120 |DVR |
-
-
 Subnet Name|	Needed   Size|	Allocated Size|	Address|	Mask|	Dec Mask|	Assignable Range|	Broadcast
 --------- | ------------- | -------------- | ------ | ------ | --------- | ----------------- | ------------
 ACCESO|	12000|	16382|	10.0.0.0|	/18|	255.255.192.0|	10.0.0.1 - 10.0.63.254 |	10.0.63.255
