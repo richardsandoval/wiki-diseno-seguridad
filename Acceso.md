@@ -2,11 +2,6 @@ Esta capa controla a los usuarios y el acceso de grupos de trabajo (workgroup ac
 
 El proyecto en la capa de acceso consta de:
 
-* La ip privada utilizada seria la **10.0.0.0** donde:
-    -El segundo octeto es la localidad
-    -El tercer octeto es el servicio utilizado
-
-
 Subnet Name|	Needed   Size|	Allocated Size|	Address|	Mask|	Dec Mask|	Assignable Range|	Broadcast
 --------- | ------------- | -------------- | ------ | ------ | --------- | ----------------- | ------------
 ACCESO|	12000|	16382|	10.0.0.0|	/18|	255.255.192.0|	10.0.0.1 - 10.0.63.254 |	10.0.63.255
