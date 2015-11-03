@@ -10,17 +10,17 @@ El proyecto en la capa de acceso consta de:
 
 VLAN ID | Name |  Description
 ------------ | ---------- | ------------------
-  10 | ACCESS POINTS 
-  20 | Foreign Clients 
-  30 | ADMINISTRATIVO 
-  40 | IP Phones 
-  50 | CAMARAS DE SEGURIDAD 
-  70 | CLIENTES LABORATORIO 
-  80 | SERVIDORES 
-  90 | Virtualizacion 
-  100 |WebServer 	
-  110|Equipo electrónicos 	
-  120 |DVR
+  10 | ACCESS POINTS |
+  20 | Foreign Clients| 
+  30 | ADMINISTRATIVO |
+  40 | IP Phones |
+  50 | CAMARAS DE SEGURIDAD |
+  70 | CLIENTES LABORATORIO |
+  80 | SERVIDORES |
+  90 | Virtualizacion |
+  100 |WebServer 	|
+  110|Equipo electrónicos |  	
+  120 |DVR |
 
 
 Subnet Name|	Needed   Size|	Allocated Size|	Address|	Mask|	Dec Mask|	Assignable Range|	Broadcast
