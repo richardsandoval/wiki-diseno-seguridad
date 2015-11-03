@@ -1,4 +1,3 @@
-# Home
 Proyecto Diseño y Seguridad de Redes!
 
 Integrantes:
