@@ -29,7 +29,7 @@ interface GigabitEthernet0/1| Esta se conecta al L3-1
 interface GigabitEthernet0/2| Esta se conecta al L3-2
  switchport mode trunk| Se configuro como modo troncal
  
- # Switch 3560
+ ## Switch 3560
   - Dispositivo capa 3
- ### Equipo 1
+ # Equipo 1
   - L3-1
