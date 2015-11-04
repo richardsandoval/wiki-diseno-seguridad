@@ -37,18 +37,18 @@ switchport mode trunk| Se configuro como modo troncal
 
 Configuración | Comentario |
 --------------|------------|
-hostname L3-1|Se le asigno el nombre L3-1 al equipo|
-interface FastEthernet0/1 | |
-switchport trunk encapsulation dot1q | |
-switchport mode trunk ||
-interface Vlan64 ||
-ip address 10.0.64.2 255.255.240.0 ||
-standby 64 ip 10.0.64.1 ||
-standby 64 priority 150 ||
-standby 64 preempt ||
-interface Vlan80 ||
-ip address 10.0.80.2 255.255.252.0 ||
-standby 80 ip 10.0.80.1 ||
+hostname L3-1|Se le asigno el nombre L3-1 al equipo
+interface FastEthernet0/1 | Se entra a la interfaz f0/1 
+switchport trunk encapsulation dot1q | Se le asigna el tipo de encapsulación
+switchport mode trunk | Se asigna la interfaz como modo troncal
+interface Vlan64 | Se entra a la interfaz de la vlan 64
+ip address 10.0.64.2 255.255.240.0 |Se le asigna una IP
+standby 64 ip 10.0.64.1 |Se le asigna una ip virtual al grupo 64
+standby 64 priority 150 | Se le asigna una prioridad mayor para que sea el active
+standby 64 preempt |Se configura para en caso de reconexion este vuelva a ser el active
+interface Vlan80 | Se entra a la interfaz de la vlan 80
+ip address 10.0.80.2 255.255.252.0 | Se le asigna una IP
+standby 80 ip 10.0.80.1 |Se le asigna una ip virtual al grupo 80
 
  - L3-2 
  
