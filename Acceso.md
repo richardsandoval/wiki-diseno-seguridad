@@ -24,7 +24,12 @@ interface FastEthernet0/3 | Se utilizo la interfaz 0/3 para conectarse a los hos
 interface FastEthernet0/4| Se utilizo la interfaz 0/4 para conectarse a los host
  switchport access vlan 80|  Se le asigno la vlan 80
  switchport mode access|  Se configuró como modo de acceso
-interface GigabitEthernet0/1| Se conectó al L3-1  
+interface GigabitEthernet0/1| Esta se conecta al L3-1  
  switchport mode trunk| Se configuro como modo troncal 
-interface GigabitEthernet0/2| Se conectó al L3-2
+interface GigabitEthernet0/2| Esta se conecta al L3-2
  switchport mode trunk| Se configuro como modo troncal
+ 
+ # Switch 3560
+  - Dispositivo capa 3
+ ### Equipo 1
+  - L3-1
