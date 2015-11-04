@@ -49,3 +49,24 @@ standby 64 preempt ||
 interface Vlan80 ||
 ip address 10.0.80.2 255.255.252.0 ||
 standby 80 ip 10.0.80.1 ||
+
+ - L3-2
+ 
+Configuración | Comentario |
+--------------|------------|
+vlan 64|
+name ADM|
+vlan 80|
+name SEC|
+interface FastEthernet0/1 |
+ switchport trunk encapsulation dot1q |
+ switchport trunk allowed vlan 64,80 |
+ switchport mode trunk |
+ interface Vlan64 |
+ ip address 10.0.64.3 255.255.240.0 |
+ standby 64 ip 10.0.64.1 |
+ interface Vlan80 |
+ ip address 10.0.80.3 255.255.252.0 |
+ standby 80 ip 10.0.80.1 |
+ standby 80 priority 150 |
+ standby 80 preempt |
