@@ -12,24 +12,24 @@ ELECTRONICOS|	300|	510|	10.0.88.0|	/23|	255.255.254.0|	10.0.88.1 - 10.0.89.254|	
 
 ## Configuration Flow
 
-# Switch 2960
-- Dispositivo Capa 2
+ # Switch 2960
+ - Dispositivo Capa 2
 
-Configuracion| Comentario|
--------------|-----------|
-hostname L2 | Se le asigno el nombre L2 al equipo
-interface FastEthernet0/3 | Se utilizo la interfaz 0/3 para conectarse a los host
- switchport access vlan 64| Se le asigno la vlan 64 
- switchport mode access| Se configuró como modo de acceso
-interface FastEthernet0/4| Se utilizo la interfaz 0/4 para conectarse a los host
- switchport access vlan 80|  Se le asigno la vlan 80
- switchport mode access|  Se configuró como modo de acceso
-interface GigabitEthernet0/1| Esta se conecta al L3-1  
- switchport mode trunk| Se configuro como modo troncal 
-interface GigabitEthernet0/2| Esta se conecta al L3-2
- switchport mode trunk| Se configuro como modo troncal
+  Configuracion| Comentario|
+  -------------|-----------|
+  hostname L2 | Se le asigno el nombre L2 al equipo
+  interface FastEthernet0/3 | Se utilizo la interfaz 0/3 para conectarse a los host
+   switchport access vlan 64| Se le asigno la vlan 64 
+   switchport mode access| Se configuró como modo de acceso
+  interface FastEthernet0/4| Se utilizo la interfaz 0/4 para conectarse a los host
+   switchport access vlan 80|  Se le asigno la vlan 80
+   switchport mode access|  Se configuró como modo de acceso
+  interface GigabitEthernet0/1| Esta se conecta al L3-1  
+   switchport mode trunk| Se configuro como modo troncal 
+  interface GigabitEthernet0/2| Esta se conecta al L3-2
+   switchport mode trunk| Se configuro como modo troncal
  
- ## Switch 3560
+## Switch 3560
   - Dispositivo capa 3
   
  # Equipo 1
