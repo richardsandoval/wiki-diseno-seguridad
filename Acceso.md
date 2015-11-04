@@ -10,7 +10,7 @@ SEC|	900|	1022|	10.0.80.0|	/22|	255.255.252.0|	10.0.80.1 - 10.0.83.254|	10.0.83.
 SERVIDORES|	600|	1022|	10.0.84.0|	/22|	255.255.252.0|	10.0.84.1 - 10.0.87.254|	10.0.87.255
 ELECTRONICOS|	300|	510|	10.0.88.0|	/23|	255.255.254.0|	10.0.88.1 - 10.0.89.254|	10.0.89.255|
 
-## Configuración
+## Configuration Flow
 
 # Switch 2960
 - Dispositivo Capa 2
@@ -31,5 +31,6 @@ interface GigabitEthernet0/2| Esta se conecta al L3-2
  
  ## Switch 3560
   - Dispositivo capa 3
+  
  # Equipo 1
   - L3-1
