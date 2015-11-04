@@ -50,6 +50,7 @@ interface Vlan80 | Se entra a la interfaz de la vlan 80
 ip address 10.0.80.2 255.255.252.0 | Se le asigna una IP
 standby 80 ip 10.0.80.1 |Se le asigna una ip virtual al grupo 80
 
+# Equipo 2
  - L3-2 
  
 Configuración | Comentario |
