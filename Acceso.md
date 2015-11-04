@@ -54,19 +54,19 @@ standby 80 ip 10.0.80.1 ||
  
 Configuración | Comentario |
 --------------|------------|
-vlan 64 | Se crea la vlan 65|
-name ADM | Se le da el nomnbre de ADM|
-vlan 80 | Se crea la vlan 80|
-name SEC | Se le da el nombre de SEC |
-interface FastEthernet0/1 | Se entra a la interfaz f0/1 |
-switchport trunk encapsulation dot1q | Se le asigna el tipo de encapsulación|
-switchport trunk allowed vlan 64,80 | Se permite que crucen las vlans' 64 y  80 por el troncal |
-switchport mode trunk | Se asigna el puerto modo troncal|
-interface Vlan64 | Se entra a la interfaz de la vlan 64|
-ip address 10.0.64.3 255.255.240.0 | Se le asigna una IP|
-standby 64 ip 10.0.64.1 | Se le asigna una ip virtual al grupo 64|
-interface Vlan80 | Se entra a la interfaz de la vlan 80|
-ip address 10.0.80.3 255.255.252.0 |  Se le asigna una IP|
-standby 80 ip 10.0.80.1 |Se le asigna una ip virtual al grupo 80|
-standby 80 priority 150 | Se le asigna una prioridad mayor para que sea el active|
-standby 80 preempt | Se configura para en caso de reconexion este vuelva a ser el active|
+vlan 64 | Se crea la vlan 65
+name ADM | Se le da el nomnbre de ADM
+vlan 80 | Se crea la vlan 80
+name SEC | Se le da el nombre de SEC 
+interface FastEthernet0/1 | Se entra a la interfaz f0/1 
+switchport trunk encapsulation dot1q | Se le asigna el tipo de encapsulación
+switchport trunk allowed vlan 64,80 | Se permite que crucen las vlans' 64 y  80 por el troncal 
+switchport mode trunk | Se asigna el puerto modo troncal
+interface Vlan64 | Se entra a la interfaz de la vlan 64
+ip address 10.0.64.3 255.255.240.0 | Se le asigna una IP
+standby 64 ip 10.0.64.1 | Se le asigna una ip virtual al grupo 64
+interface Vlan80 | Se entra a la interfaz de la vlan 80
+ip address 10.0.80.3 255.255.252.0 |  Se le asigna una IP
+standby 80 ip 10.0.80.1 |Se le asigna una ip virtual al grupo 80
+standby 80 priority 150 | Se le asigna una prioridad mayor para que sea el active
+standby 80 preempt | Se configura para en caso de reconexion este vuelva a ser el active
