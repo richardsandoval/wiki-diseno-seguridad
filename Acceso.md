@@ -14,19 +14,16 @@ ELECTRONICOS|	300|	510|	10.0.88.0|	/23|	255.255.254.0|	10.0.88.1 - 10.0.89.254|	
 
 # Switch 2960
 - Capa 2
-!
-hostname L2
-!
-interface FastEthernet0/3
- switchport access vlan 64
- switchport mode access
-!
-interface FastEthernet0/4
- switchport access vlan 80
-!
-interface GigabitEthernet0/1
- switchport mode trunk
-!
-interface GigabitEthernet0/2
- switchport mode trunk
-!
+
+Configuracion| Comentario|
+-------------|-----------|
+hostname L2 |
+interface FastEthernet0/3 |
+ switchport access vlan 64|
+ switchport mode access|
+interface FastEthernet0/4|
+ switchport access vlan 80|
+interface GigabitEthernet0/1|
+ switchport mode trunk|
+interface GigabitEthernet0/2|
+ switchport mode trunk|
