@@ -13,7 +13,7 @@ ELECTRONICOS|	300|	510|	10.0.88.0|	/23|	255.255.254.0|	10.0.88.1 - 10.0.89.254|	
 ## Configuración
 
 # Switch 2960
-- Capa 2
+- Dispositivo Capa 2
 
 Configuracion| Comentario|
 -------------|-----------|
@@ -22,9 +22,9 @@ interface FastEthernet0/3 | Se utilizo la interfaz 0/3 para conectarse a los hos
  switchport access vlan 64| Se le asigno la vlan 64 
  switchport mode access| Se configuró como modo de acceso
 interface FastEthernet0/4| Se utilizo la interfaz 0/4 para conectarse a los host
- switchport access vlan 80| 
- switchport mode access|
-interface GigabitEthernet0/1|
- switchport mode trunk|
-interface GigabitEthernet0/2|
- switchport mode trunk|
+ switchport access vlan 80|  Se le asigno la vlan 80
+ switchport mode access|  Se configuró como modo de acceso
+interface GigabitEthernet0/1| Se conectó al L3-1  
+ switchport mode trunk| Se configuro como modo troncal 
+interface GigabitEthernet0/2| Se conectó al L3-2
+ switchport mode trunk| Se configuro como modo troncal
