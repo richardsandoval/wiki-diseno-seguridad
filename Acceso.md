@@ -1,8 +1,10 @@
 Esta capa controla a los usuarios y el acceso de grupos de trabajo (workgroup access) o los recursos de internetwork, y a veces se le llama desktop layer. Los recursos más utilizados por los usuarios deben ser ubicados localmente, pero el tráfico de servicios remotos es manejado aquí, y entre sus funciones están la continuación de control de acceso y políticas, creación de dominios de colisión separados (segmentación), conectividad de grupos de trabajo en la capa de distribución (workgroup connectivity). En esta capa se lleva a cabo la conmutación Ethernet (Ethernet switching), DDR y ruteo estático (el dinámico es parte de la capa de distribución). Es importante considerar que no tienen que ser routers separados los que efectúan estas funciones de diferentes capas, podrían ser incluso varios dispositivos por capa o un dispositivo haciendo funciones de varias capas.
 
-#Configuracion
+## Configuracion
 
-#configuracion de Switch 2960
+# configuracion de Switch 2960
+
+
 
 El proyecto en la capa de acceso consta de:
 
