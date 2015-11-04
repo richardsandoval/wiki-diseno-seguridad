@@ -17,9 +17,9 @@ ELECTRONICOS|	300|	510|	10.0.88.0|	/23|	255.255.254.0|	10.0.88.1 - 10.0.89.254|	
 
 Configuracion| Comentario|
 -------------|-----------|
-hostname L2 |
-interface FastEthernet0/3 |
- switchport access vlan 64|
+hostname L2 | Se le asigno el nombre L2 al equipo |
+interface FastEthernet0/3 | Se utilizo la interfaz 0/3 
+ switchport access vlan 64| 
  switchport mode access|
 interface FastEthernet0/4|
  switchport access vlan 80|
